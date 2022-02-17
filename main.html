@@ -12,11 +12,13 @@
     <main class="container">
         <h2>Login</h2>
 
-        <form action="">
+        <form id="formLogin" action="next.html">
 
-            <div class="input-field">
+            <div class="input-field"> 
+                <span id="alerta"></span>
                 <input type="text" name="username" id="username" placeholder="Enter your Username">
                 <div class="underline"></div>
+               
             </div>
 
             <div class="input-field">
@@ -24,7 +26,7 @@
                 <div class="underline"></div>
             </div>
 
-            <input type="submit" value="Continue">
+            <input id="btn" type="submit" value="Continue">
 
         </form>
 
@@ -52,5 +54,11 @@
 
         </div>
     </main>
+
+
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>

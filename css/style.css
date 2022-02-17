@@ -56,6 +56,7 @@ main h2::before {
 
 /*  Input Field  */
 
+
 form {
     display: flex;
     flex-direction: column;
@@ -82,6 +83,13 @@ form .input-field:first-child {
 .input-field input::placeholder {
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+.input-field input.error {
+    border-bottom: 2px solid red;
+    
+}
+
 
 .input-field .underline::before {
     content: '';
